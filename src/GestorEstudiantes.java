@@ -7,12 +7,6 @@ public class GestorEstudiantes {
     // Constructor
     public GestorEstudiantes() {
         estudiantes = new ArrayList<>();
-        // Agregamos algunos estudiantes de ejemplo
-        estudiantes.add(new Estudiante("E001", "Juan", "Pérez", 4.2));
-        estudiantes.add(new Estudiante("E002", "María", "González", 3.8));
-        estudiantes.add(new Estudiante("E003", "Carlos", "Rodríguez", 2.9));
-        estudiantes.add(new Estudiante("E004", "Ana", "Martínez", 4.5));
-        estudiantes.add(new Estudiante("E005", "Pedro", "Sánchez", 3.2));
     }
     
     // Método para mostrar el menú principal
